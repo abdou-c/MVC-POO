@@ -1,4 +1,5 @@
 <?php
+        namespace entities;
     class ClassCompteBloque{
         private $numero;
         private $solde;
@@ -9,7 +10,7 @@
 
         public function __construct()
         {
-                
+
         }
 
         /**

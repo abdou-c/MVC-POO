@@ -1,4 +1,5 @@
 <?php
+        namespace entities;
     class ClassCompteEpargne{
         private $numero;
         private $solde;

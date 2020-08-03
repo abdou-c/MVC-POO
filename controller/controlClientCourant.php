@@ -1,10 +1,17 @@
 <?php
 //en premier on va require le model et les entites
-require_once '../model/clientCourant.php';
-require_once '../entities/ClassClientCourant.php';
+    use \model\clientCourant;
+    use \entities\ClassClientCourant;
+    require_once '../config/autoloader.php';
 
-require_once '../model/compteCourant.php';
-require_once '../entities/ClassCompteCourant.php';
+    use model\compteCourant;
+    use entities\ClassCompteCourant;
+    require_once '../config/autoloader.php';    
+    // require_once '../model/clientCourant.php';
+    // require_once '../entities/ClassClientCourant.php';
+
+    // require_once '../model/compteCourant.php';
+    // require_once '../entities/ClassCompteCourant.php';
 
 $courant = FALSE;
 

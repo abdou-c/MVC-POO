@@ -1,6 +1,8 @@
 <?php 
-    require_once 'dbConnect.php';
-    require_once '../entities/ClassCompteCourant.php';
+    namespace model;
+    use entities\ClassCompteCourant;
+    // require_once 'dbConnect.php';
+    // require_once '../entities/ClassCompteCourant.php';
 
     class compteCourant extends dbConnect{
         private $connexion;

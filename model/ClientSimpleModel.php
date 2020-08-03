@@ -1,6 +1,8 @@
 <?php
-    require_once 'dbConnect.php';
-    require_once '../entities/ClassClientSimple.php';
+    namespace model;
+    use entities\ClassClientSimple;
+    // require_once 'dbConnect.php';
+    // require_once '../entities/ClassClientSimple.php';
     Class ClientSimpleModel extends dbConnect{
         private $db;
         public function __construct()

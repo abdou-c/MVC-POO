@@ -1,7 +1,9 @@
 <?php
+    namespace model;
+    use entities\ClassClientCourant;
 //on va d'abord require la base de donnees apres les entites
-    require_once 'dbConnect.php';
-    require_once '../entities/ClassClientCourant.php';
+    // require_once 'dbConnect.php';
+    // require_once '../entities/ClassClientCourant.php';
     //on va creer un class qui herite la  base de donnees
     class ClientCourant extends dbConnect{
         private $getConnexion;

@@ -1,7 +1,9 @@
 <?php
-    require_once 'dbConnect.php';
-    require_once '../entities/ClassCompteEpargne.php';
-    class clientEpargne extends dbConnect{
+    namespace model;
+    use entities\ClassCompteEpargne;
+    // require_once 'dbConnect.php';
+    // require_once '../entities/ClassCompteEpargne.php';
+    class compteEpargne extends dbConnect{
             private $connexion;
 
             public function __construct()

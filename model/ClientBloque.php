@@ -1,6 +1,8 @@
-<?php
-    require_once 'dbConnect.php';
-    require_once '../entities/ClassClientBloque.php';
+<?php   
+    namespace model;
+     use entities\ClassClientBloque;
+    // require_once 'dbConnect.php';
+    // require_once '../entities/ClassClientBloque.php';
 
     class clientBloque extends dbConnect{
         private $database;

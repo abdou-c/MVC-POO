@@ -1,10 +1,17 @@
 <?php
     //il joue l'intermediaire entre view et model!!
-    require_once '../model/ClientSimple.php';
-    require_once '../entities/ClassClientSimple.php';
+    use model\ClientSimpleModel;
+    use entities\ClassClientSimple;
+    require_once '../config/autoloader.php';
+    // require_once '../model/ClientSimple.php';
+    // require_once '../entities/ClassClientSimple.php';
    
-    require_once '../model/compteEpargne.php';
-    require_once '../entities/ClassCompteEpargne.php';
+    use model\compteEpargne;
+    use entities\ClassCompteEpargne;
+    require_once '../config/autoloader.php';
+
+    // require_once '../model/compteEpargne.php';
+    // require_once '../entities/ClassCompteEpargne.php';
 
     //recupere tous les name en POST
     //var_dump($_POST);
@@ -42,7 +49,7 @@
 
     if($var==TRUE){
         $compteEpargne = new ClassCompteEpargne();
-        $modelEpargne = new clientEpargne();
+        $modelEpargne = new compteEpargne();
 
         $compteEpargne->setNumero($_POST['numCompte']);
         $compteEpargne->setSolde($_POST['solde']);

@@ -1,4 +1,5 @@
 <?php
+        namespace entities;
     class ClassClientBloque{
         private $nom;
         private $prenom;

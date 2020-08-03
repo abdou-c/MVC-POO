@@ -1,4 +1,6 @@
 <?php
+namespace entities;
+
     class ClassCompteCourant{
         private $numero;
         private $solde;

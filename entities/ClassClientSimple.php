@@ -1,8 +1,6 @@
-
 <?php
-//pour les class specifique a chaque champs
+       namespace entities;
     Class ClassClientSimple{
-        //les attributs des champs speecifique
         private $nom;
         private $prenom;
         private $telephone;
@@ -11,8 +9,6 @@
         private $sexe;
         private $dateNaiss;
 
-
-//le constructor c'est une methode a appeler dès qu'on instancie l'objet
         public function __construct()
         {
             

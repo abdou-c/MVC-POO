@@ -1,9 +1,17 @@
 <?php
-    require_once '../model/ClientBloque.php';
-    require_once '../entities/ClassClientBloque.php';
+    require_once '../config/autoloader.php';
+        use model\ClientBloque;
+        use entities\ClassClientBloque;
+        require_once '../config/autoloader.php';
 
-    require_once '../model/compteBloque.php';
-    require_once '../entities/ClassCompteBloque.php';
+        use model\compteBloque;
+        use entities\ClassCompteBloque;
+        require_once '../config/autoloader.php';
+    // require_once '../model/ClientBloque.php';
+    // require_once '../entities/ClassClientBloque.php';
+
+    // require_once '../model/compteBloque.php';
+    // require_once '../entities/ClassCompteBloque.php';
     // apres les require je mets les conditions
     $ControlCompteBloque = FALSE;
 

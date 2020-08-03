@@ -1,4 +1,5 @@
 <?php
+        namespace entities;
     Class ClassClientCourant{
         private $nom;
         private $prenom;
